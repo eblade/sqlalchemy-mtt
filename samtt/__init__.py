@@ -21,6 +21,10 @@ Usage:
 
 """
 
+
+__version__ = "0.1"
+
+
 import os, logging, threading, hashlib
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
